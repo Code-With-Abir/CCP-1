@@ -2,6 +2,7 @@ import React from "react";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Register from "./pages/Register";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Home />
         <About />
         <Register/>
+        <Footer />
       </div>
     </>
   );
